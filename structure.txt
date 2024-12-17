@@ -1,0 +1,50 @@
+Based on the image, here's the structure of the project:
+
+BOT/
+│
+├── clinic/
+│   └── config/
+│       └── config.json
+│
+├── config/
+│   ├── models/
+│   │   ├── feedback.js
+│   │   ├── index.js
+│   │   └── receiver.js
+│   └── node_modules/
+│
+├── src/
+│   ├── config/
+│   │   └── rabbitmq.js
+│   │
+│   ├── controllers/
+│   │   └── appointmentController.js
+│   │
+│   ├── handlers/
+│   │   ├── cancelHandler.js
+│   │   ├── feedbackHandler.js
+│   │   ├── mainHandler.js
+│   │   └── newHandler.js
+│   │
+│   ├── middleware/
+│   │   ├── tokenMiddleware.js
+│   │   └── whatsappMiddleware.js
+│   │
+│   ├── routes/
+│   │   └── router.js
+│   │
+│   ├── services/
+│   │   ├── cancelService.js
+│   │   ├── feedbackService.js
+│   │   ├── messageService.js
+│   │   ├── stateManager.js
+│   │   └── viewService.js
+│   │
+│   └── app.js
+│
+├── .env
+├── .gitignore
+├── docker-compose.yml
+├── Dockerfile
+├── package-lock.json
+└── structure.txt
